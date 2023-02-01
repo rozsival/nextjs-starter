@@ -1,0 +1,7 @@
+.idea
+.next
+.vercel
+.vscode
+CHANGELOG.md
+node_modules
+out
