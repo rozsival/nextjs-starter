@@ -14,7 +14,6 @@
     "prettier:fix": "pnpm run prettier --write",
     "stylelint": "stylelint --cache './**/styles.ts'",
     "qa": "run-s ts eslint stylelint prettier",
-    "release": "semantic-release",
     "start": "NODE_ENV=production next start",
     "ts": "tsc --project tsconfig.json"
   },

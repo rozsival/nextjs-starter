@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import NProgress from 'nprogress';
-import type { FunctionComponent } from 'react';
 import { useEffect } from 'react';
 
 import { styles } from './styles';
@@ -9,7 +8,7 @@ import { styles } from './styles';
 const start = () => NProgress.start();
 const stop = () => NProgress.done();
 
-export const Nprogress: FunctionComponent = () => {
+export const Nprogress = () => {
   const router = useRouter();
   useEffect(() => {
     router.events.on('routeChangeComplete', stop);
@@ -23,7 +22,7 @@ export const Nprogress: FunctionComponent = () => {
   }, [router.events]);
   return (
     <Head>
-      <style>{styles}</style>
+      <style key="nprogress">{styles}</style>
     </Head>
   );
 };
