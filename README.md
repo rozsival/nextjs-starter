@@ -15,7 +15,7 @@
 
 ## ✅ Features
 
-Full packed starter for Next.js projects with all the goodies 🤙
+Minimalistic starter for Next.js projects with all the goodies 🤙
 
 - [TypeScript](https://github.com/microsoft/TypeScript) and [ESLint](https://github.com/eslint/eslint) with opinionated
   setup
