@@ -33,7 +33,7 @@
     "@commitlint/config-conventional": "17.4.2",
     "@emotion/babel-plugin": "11.10.5",
     "@emotion/eslint-plugin": "11.10.0",
-    "@types/node": "18.11.18",
+    "@types/node": "18.11.19",
     "@types/nprogress": "0.2.0",
     "@types/react": "18.0.27",
     "@types/react-dom": "18.0.10",
