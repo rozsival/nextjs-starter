@@ -25,7 +25,7 @@ Minimalistic starter for Next.js projects with all the goodies 🤙
 - [Conventional Commits](https://github.com/conventional-commits/conventionalcommits.org) setup
 - [husky](https://github.com/typicode/husky) hooks for `commit-msg` and `pre-commit`
   with [lint-staged](https://github.com/okonet/lint-staged)
-- [pnpm](https://github.com/pnpm/pnpm) as package manager
+- [pnpm](https://github.com/pnpm/pnpm) as package manager (with [renovate](https://github.com/renovatebot/renovate))
 - [GitHub Actions](https://github.com/actions) workflow for QA
 - `src` folder with lined-up structure for your components, pages and other stuff
 
