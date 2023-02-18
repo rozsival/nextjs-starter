@@ -24,7 +24,7 @@ module.exports = {
       modules: true,
     },
     ecmaVersion: 2022,
-    jsxPragma: undefined,
+    jsxPragma: null, // eslint-disable-line unicorn/no-null
     project: 'tsconfig.json',
     sourceType: 'module',
     tsconfigRootDir: '.',
