@@ -63,7 +63,7 @@
     "prettier": "2.8.4",
     "prettier-plugin-package": "1.3.0",
     "stylelint": "14.16.1",
-    "stylelint-config-recommended": "9.0.0",
+    "stylelint-config-recommended": "10.0.1",
     "stylelint-config-styled-components": "0.1.1",
     "stylelint-order": "6.0.2",
     "typescript": "4.9.5"

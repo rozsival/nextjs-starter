@@ -43,7 +43,7 @@ specifiers:
   react: 18.2.0
   react-dom: 18.2.0
   stylelint: 14.16.1
-  stylelint-config-recommended: 9.0.0
+  stylelint-config-recommended: 10.0.1
   stylelint-config-styled-components: 0.1.1
   stylelint-order: 6.0.2
   typescript: 4.9.5
@@ -93,7 +93,7 @@ devDependencies:
   prettier: 2.8.4
   prettier-plugin-package: 1.3.0_prettier@2.8.4
   stylelint: 14.16.1
-  stylelint-config-recommended: 9.0.0_stylelint@14.16.1
+  stylelint-config-recommended: 10.0.1_stylelint@14.16.1
   stylelint-config-styled-components: 0.1.1
   stylelint-order: 6.0.2_stylelint@14.16.1
   typescript: 4.9.5
@@ -4712,10 +4712,10 @@ packages:
       react: 18.2.0
     dev: false
 
-  /stylelint-config-recommended/9.0.0_stylelint@14.16.1:
-    resolution: {integrity: sha512-9YQSrJq4NvvRuTbzDsWX3rrFOzOlYBmZP+o513BJN/yfEmGSr0AxdvrWs0P/ilSpVV/wisamAHu5XSk8Rcf4CQ==}
+  /stylelint-config-recommended/10.0.1_stylelint@14.16.1:
+    resolution: {integrity: sha512-TQ4xQ48tW4QSlODcti7pgSRqBZcUaBzuh0jPpfiMhwJKBPkqzTIAU+IrSWL/7BgXlOM90DjB7YaNgFpx8QWhuA==}
     peerDependencies:
-      stylelint: ^14.10.0
+      stylelint: ^15.0.0
     dependencies:
       stylelint: 14.16.1
     dev: true
