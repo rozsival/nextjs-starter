@@ -8,9 +8,9 @@ export const globalStyle = (
       html,
       body,
       #__next {
-        -webkit-overflow-scrolling: touch;
         background: ${theme.palette.primary.light};
         margin: 0;
+        -webkit-overflow-scrolling: touch;
         padding: 0;
         width: 100%;
       }
@@ -28,14 +28,14 @@ export const globalStyle = (
       }
 
       html {
-        -webkit-text-size-adjust: 100%;
         scroll-behavior: smooth;
+        text-size-adjust: 100%;
       }
 
       body {
         -moz-osx-font-smoothing: grayscale;
-        -ms-overflow-style: scrollbar;
         -webkit-font-smoothing: antialiased;
+        -ms-overflow-style: scrollbar;
         overflow-y: auto;
         overscroll-behavior-y: none;
         text-rendering: optimizeLegibility;
