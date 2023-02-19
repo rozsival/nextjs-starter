@@ -22,7 +22,7 @@ specifiers:
   eslint-config-next: 13.1.6
   eslint-config-prettier: 8.6.0
   eslint-import-resolver-typescript: 3.5.3
-  eslint-plugin-formatjs: 4.6.0
+  eslint-plugin-formatjs: 4.7.1
   eslint-plugin-import: 2.27.5
   eslint-plugin-jsx-a11y: 6.7.1
   eslint-plugin-prettier: 4.2.1
@@ -75,7 +75,7 @@ devDependencies:
   eslint-config-next: 13.1.6_7kw3g6rralp5ps6mg3uyzz6azm
   eslint-config-prettier: 8.6.0_eslint@8.34.0
   eslint-import-resolver-typescript: 3.5.3_mvgyw3chnqkp6sgfmmtihyjpnm
-  eslint-plugin-formatjs: 4.6.0_eslint@8.34.0
+  eslint-plugin-formatjs: 4.7.1_eslint@8.34.0
   eslint-plugin-import: 2.27.5_gndiqgw2wrzfeqy4ccfxbmtnsi
   eslint-plugin-jsx-a11y: 6.7.1_eslint@8.34.0
   eslint-plugin-prettier: 4.2.1_u5wnrdwibbfomslmnramz52buy
@@ -2153,8 +2153,8 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-formatjs/4.6.0_eslint@8.34.0:
-    resolution: {integrity: sha512-FmtJQUrKeAudrpaIyiVW1Gc5Pf0esKewdlgew1ccDmphcfsm8eCgC4tREl4MGeGXSlqd5bcdxK6ZAUYNZpK2oA==}
+  /eslint-plugin-formatjs/4.7.1_eslint@8.34.0:
+    resolution: {integrity: sha512-TZGLdGUl5owA8m2WqqM+E+Y9kpsDTf7yo1QKw4czvLj4qDTBdp0Rt1Qckf8TjxNJ1C2+FTjgbopuOk7w+A5FQw==}
     peerDependencies:
       eslint: 7 || 8
     dependencies:
@@ -2165,6 +2165,7 @@ packages:
       '@typescript-eslint/typescript-estree': 5.45.0_typescript@4.9.5
       emoji-regex: 10.2.1
       eslint: 8.34.0
+      magic-string: 0.29.0
       picomatch: 2.3.1
       tslib: 2.4.0
       typescript: 4.9.5
@@ -3572,6 +3573,13 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       yallist: 4.0.0
+    dev: true
+
+  /magic-string/0.29.0:
+    resolution: {integrity: sha512-WcfidHrDjMY+eLjlU+8OvwREqHwpgCeKVBUpQ3OhYYuvfaYCUgcbuBzappNzZvg/v8onU3oQj+BYpkOJe9Iw4Q==}
+    engines: {node: '>=12'}
+    dependencies:
+      '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
   /make-error/1.3.6:
