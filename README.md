@@ -47,6 +47,7 @@ Minimalistic starter for Next.js projects with all the goodies 🤙
 - `pnpm run prettier` – checks code format with `prettier`
 - `pnpm run prettier:fix` – runs `prettier` with auto-fix
 - `pnpm run stylelint` – checks your CSS-in-JS files
+- `pnpm run stylelint:fix` – runs `stylelint` with auto-fix
 - `pnpm run qa` – runs all linters in check-only mode
 - `pnpm run start` – starts server for last created production build
 - `pnpm run ts` - checks code with `tsc`
