@@ -29,7 +29,6 @@ export const globalStyle = (
       html {
         overflow: auto;
         -ms-overflow-style: scrollbar;
-        overscroll-behavior-y: none;
         scroll-behavior: smooth;
         text-size-adjust: 100%;
       }
