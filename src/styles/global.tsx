@@ -21,13 +21,15 @@ export const globalStyle = (
           Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
           Helvetica Neue, sans-serif;
         font-size: 14px;
-        height: 100%;
         margin: 0;
         min-height: 100%;
         padding: 0;
       }
 
       html {
+        overflow: auto;
+        -ms-overflow-style: scrollbar;
+        overscroll-behavior-y: none;
         scroll-behavior: smooth;
         text-size-adjust: 100%;
       }
@@ -35,9 +37,6 @@ export const globalStyle = (
       body {
         -moz-osx-font-smoothing: grayscale;
         -webkit-font-smoothing: antialiased;
-        -ms-overflow-style: scrollbar;
-        overflow-y: auto;
-        overscroll-behavior-y: none;
         text-rendering: optimizeLegibility;
       }
 
