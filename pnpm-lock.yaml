@@ -37,7 +37,7 @@ specifiers:
   npm-run-all: 4.1.5
   nprogress: 0.2.0
   postcss: 8.4.21
-  postcss-styled-syntax: 0.3.3
+  postcss-styled-syntax: 0.4.0
   prettier: 2.8.4
   prettier-plugin-package: 1.3.0
   react: 18.2.0
@@ -88,7 +88,7 @@ devDependencies:
   lint-staged: 13.1.2
   npm-run-all: 4.1.5
   postcss: 8.4.21
-  postcss-styled-syntax: 0.3.3_uujdqti2krmttzhqvubwnsmcci
+  postcss-styled-syntax: 0.4.0_uujdqti2krmttzhqvubwnsmcci
   prettier: 2.8.4
   prettier-plugin-package: 1.3.0_prettier@2.8.4
   stylelint: 15.2.0
@@ -4149,8 +4149,8 @@ packages:
       postcss: 8.4.21
     dev: true
 
-  /postcss-styled-syntax/0.3.3_uujdqti2krmttzhqvubwnsmcci:
-    resolution: {integrity: sha512-TyoKQNPK4r2Ua7eeL2IdwXShIajO6svQMVtUSezxe1Ru3eNM1TJE+IxU82lTnUBX/sBQjY5TUtI69bZaoXjRpg==}
+  /postcss-styled-syntax/0.4.0_uujdqti2krmttzhqvubwnsmcci:
+    resolution: {integrity: sha512-LvG++K8LtIyX1Q1mNuZVQYmBo+SCwn90cEkMigo4/I0QwXrEiYt8nPeJ5rrI5Uuh+5w7hRfPyJKlvQdhVZBhUg==}
     peerDependencies:
       postcss: ^8.4.21
     dependencies:
