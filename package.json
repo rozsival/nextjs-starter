@@ -44,7 +44,7 @@
     "eslint": "8.34.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-next": "13.1.6",
-    "eslint-config-prettier": "8.6.0",
+    "eslint-config-prettier": "8.8.0",
     "eslint-import-resolver-typescript": "3.5.3",
     "eslint-plugin-formatjs": "4.7.2",
     "eslint-plugin-import": "2.27.5",
