@@ -23,7 +23,7 @@
     "@emotion/react": "11.10.6",
     "@emotion/server": "11.10.0",
     "@emotion/styled": "11.10.6",
-    "next": "13.3.1",
+    "next": "13.5.7",
     "nprogress": "0.2.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
@@ -43,7 +43,7 @@
     "commitizen": "4.3.0",
     "eslint": "8.39.0",
     "eslint-config-airbnb": "19.0.4",
-    "eslint-config-next": "13.3.1",
+    "eslint-config-next": "13.5.7",
     "eslint-config-prettier": "8.8.0",
     "eslint-import-resolver-typescript": "3.5.5",
     "eslint-plugin-formatjs": "4.10.0",
