@@ -29,7 +29,7 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@babel/core": "7.21.4",
+    "@babel/core": "7.25.9",
     "@commitlint/cli": "17.6.1",
     "@commitlint/config-conventional": "17.6.1",
     "@emotion/babel-plugin": "11.10.6",
