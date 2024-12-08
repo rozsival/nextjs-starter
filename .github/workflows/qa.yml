@@ -37,7 +37,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install
       - name: Cache setup
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         id: cache-setup
         with:
           key: ${{ env.CACHE_KEY }}
@@ -64,7 +64,7 @@ jobs:
           cache: pnpm
           node-version: ${{ needs.setup.outputs.node-version }}
       - name: Restore setup
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         id: restore-setup
         with:
           key: ${{ env.CACHE_KEY }}
@@ -87,7 +87,7 @@ jobs:
           cache: pnpm
           node-version: ${{ needs.setup.outputs.node-version }}
       - name: Restore setup
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         id: restore-setup
         with:
           key: ${{ env.CACHE_KEY }}
@@ -110,7 +110,7 @@ jobs:
           cache: pnpm
           node-version: ${{ needs.setup.outputs.node-version }}
       - name: Restore setup
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         id: restore-setup
         with:
           key: ${{ env.CACHE_KEY }}
@@ -133,7 +133,7 @@ jobs:
           cache: pnpm
           node-version: ${{ needs.setup.outputs.node-version }}
       - name: Restore setup
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         id: restore-setup
         with:
           key: ${{ env.CACHE_KEY }}
@@ -156,7 +156,7 @@ jobs:
           cache: pnpm
           node-version: ${{ needs.setup.outputs.node-version }}
       - name: Restore setup
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         id: restore-setup
         with:
           key: ${{ env.CACHE_KEY }}
